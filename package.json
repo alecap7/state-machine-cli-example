@@ -1,0 +1,19 @@
+{
+  "name": "state-machine-cli-example",
+  "version": "1.0.0",
+  "description": "An inquirerjs cli powered by xstate",
+  "main": "index.js",
+  "bin": {
+    "smcli": "./index.js"
+  },
+  "repository": "git@github.com:alecap7/state-machine-cli-example.git",
+  "author": "Alessandro Capogna <alessandro.capogna.1992@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "xstate": "^4.13.0"
+  }
+}
