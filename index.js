@@ -20,7 +20,7 @@ const { createMachine, interpret, assign } = require("xstate");
 const inquirer = require("inquirer");
 
 const machineDefinition = createMachine({
-  id: "ACMECLI",
+  id: "SMCLI",
   initial: "Entered",
   context: {
     user: null
